@@ -29,4 +29,4 @@ jobs:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
 
       # Commit the changes back to this repo
-      - uses: actions/github-script
+      - uses: bolos-gopb/newsdata@v0
