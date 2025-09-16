@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  run:
+  scrape:
     runs-on: ubuntu-latest
     permissions:
       contents: write
